@@ -1,0 +1,21 @@
+.footer {
+	width: 100%;
+	background: var(--bs-dark);
+	color: white;
+	padding: 1rem 1rem 0;
+	a {
+		color: white;
+		text-decoration: none;
+		margin: 0.5rem;
+	}
+	a:hover {
+		color: #4b8;
+	}
+	hr {
+		margin: 1rem 0;
+	}
+	.bottom {
+		background: rgb(12, 12, 12);
+		margin: 0 -10%;
+	}
+}
