@@ -1,6 +1,11 @@
 import React from "react";
-import ProjectCard from "../Card";
+
+//my components
 import CarouselHome from "./carousel";
+import HomeSection from "./HomeSection";
+
+//data
+import { Data } from "../../assets/data/projectData";
 
 // css
 import "./style.scss";
@@ -8,14 +13,16 @@ import "./style.scss";
 export default function Home() {
 	return (
 		<div className="home">
-			<section>
+			<section id="carousel">
 				<CarouselHome className="carousel" />
 			</section>
-			<section>
+			<section id="project">
 				<h2>Our Projects</h2>
-				<div className="flex">
-					<ProjectCard />
-				</div>
+				<HomeSection {...Data} />
+			</section>
+			<section id="events">
+				<h2>Our Events and Workshops</h2>
+				<HomeSection {...Data} />
 			</section>
 		</div>
 	);

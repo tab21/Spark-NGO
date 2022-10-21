@@ -1,13 +1,17 @@
 import React from "react";
-import { Container, Navbar, Nav } from "react-bootstrap";
+import { Container, Navbar, Nav, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
+//scss
+import "./style.scss";
+
+// images
 import logo from "../../assets/logo.png";
 
 export default function NavigationBar() {
 	return (
 		<Navbar bg="dark" variant="dark" collapseOnSelect expand="lg">
-			<Container>
+			<Container id="navbarContainer">
 				<Navbar.Brand as={Link} to="/">
 					<img src={logo} alt="Logo" />
 				</Navbar.Brand>
@@ -27,6 +31,9 @@ export default function NavigationBar() {
 							Events and Workshops
 						</Nav.Link>
 					</Nav>
+					<Nav.Item>
+						<Button variant="outline-light">Donate</Button>
+					</Nav.Item>
 				</Navbar.Collapse>
 			</Container>
 		</Navbar>

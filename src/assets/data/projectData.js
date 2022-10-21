@@ -1,9 +1,14 @@
 // Data has name,intro,body and img
 
+// getting images
+import img1 from "../../assets/projectImgs/1.jpg";
+import img2 from "../../assets/projectImgs/2.jpg";
+import img3 from "../../assets/projectImgs/3.jpg";
+
 export const Data = [
 	{
-		name: "saksham",
-		intro: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi tristique senectus et netus et malesuada fames. Quis hendrerit dolor magna eget est lorem. At augue eget arcu dictum varius duis. Quam pellentesque nec nam aliquam. Proin nibh nisl condimentum id. Nunc congue nisi vitae suscipit tellus mauris a diam. Interdum velit euismod in pellentesque massa placerat duis ultricies lacus. Enim tortor at auctor urna nunc id. Eros in cursus turpis massa tincidunt dui.`,
+		name: "Saksham",
+		intro: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi tristique senectus et netus et malesuada fames. Quis hendrerit dolor magna eget est lorem. At augue eget arcu dictum varius duis. Quam pellentesque nec nam aliquam. Proin nibh nisl condimentum id. Nunc congue nisi vitae suscipit tellus mauris a diam. `,
 
 		body: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi tristique senectus et netus et malesuada fames. Quis hendrerit dolor magna eget est lorem. At augue eget arcu dictum varius duis. Quam pellentesque nec nam aliquam. Proin nibh nisl condimentum id. Nunc congue nisi vitae suscipit tellus mauris a diam. Interdum velit euismod in pellentesque massa placerat duis ultricies lacus. Enim tortor at auctor urna nunc id. Eros in cursus turpis massa tincidunt dui. Volutpat sed cras ornare arcu dui vivamus arcu. Nibh mauris cursus mattis molestie a. Elit duis tristique sollicitudin nibh sit amet. Enim neque volutpat ac tincidunt. Semper risus in hendrerit gravida rutrum quisque non tellus orci. Enim nunc faucibus a pellentesque sit amet porttitor.
 
@@ -14,7 +19,7 @@ export const Data = [
         Ullamcorper sit amet risus nullam eget felis eget nunc lobortis. Metus vulputate eu scelerisque felis imperdiet proin. Cursus in hac habitasse platea dictumst quisque sagittis. Nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet. Eleifend quam adipiscing vitae proin. Amet consectetur adipiscing elit pellentesque. Neque sodales ut etiam sit amet nisl. Amet est placerat in egestas erat imperdiet sed. Venenatis cras sed felis eget velit aliquet sagittis id consectetur. Egestas diam in arcu cursus euismod quis. Pharetra sit amet aliquam id. Vel quam elementum pulvinar etiam non quam lacus suspendisse faucibus. Ipsum faucibus vitae aliquet nec ullamcorper sit amet.
         
         Sed euismod nisi porta lorem mollis aliquam ut porttitor leo. Eget gravida cum sociis natoque penatibus. Sagittis orci a scelerisque purus semper. Mollis aliquam ut porttitor leo a diam sollicitudin. Massa enim nec dui nunc mattis enim ut tellus elementum. Potenti nullam ac tortor vitae purus faucibus ornare. Urna porttitor rhoncus dolor purus. Amet dictum sit amet justo donec. Morbi blandit cursus risus at ultrices mi tempus. Pharetra vel turpis nunc eget lorem dolor sed.`,
-		img: "../../assets/projectImgs/1.jpg",
+		img: img1,
 	},
 	{
 		name: "Rain",
@@ -29,11 +34,11 @@ export const Data = [
         Ullamcorper sit amet risus nullam eget felis eget nunc lobortis. Metus vulputate eu scelerisque felis imperdiet proin. Cursus in hac habitasse platea dictumst quisque sagittis. Nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet. Eleifend quam adipiscing vitae proin. Amet consectetur adipiscing elit pellentesque. Neque sodales ut etiam sit amet nisl. Amet est placerat in egestas erat imperdiet sed. Venenatis cras sed felis eget velit aliquet sagittis id consectetur. Egestas diam in arcu cursus euismod quis. Pharetra sit amet aliquam id. Vel quam elementum pulvinar etiam non quam lacus suspendisse faucibus. Ipsum faucibus vitae aliquet nec ullamcorper sit amet.
         
         Sed euismod nisi porta lorem mollis aliquam ut porttitor leo. Eget gravida cum sociis natoque penatibus. Sagittis orci a scelerisque purus semper. Mollis aliquam ut porttitor leo a diam sollicitudin. Massa enim nec dui nunc mattis enim ut tellus elementum. Potenti nullam ac tortor vitae purus faucibus ornare. Urna porttitor rhoncus dolor purus. Amet dictum sit amet justo donec. Morbi blandit cursus risus at ultrices mi tempus. Pharetra vel turpis nunc eget lorem dolor sed.`,
-		img: "../../assets/projectImgs/2.jpg",
+		img: img2,
 	},
 	{
 		name: "Red",
-		intro: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi tristique senectus et netus et malesuada fames. Quis hendrerit dolor magna eget est lorem. At augue eget arcu dictum varius duis. Quam pellentesque nec nam aliquam. Proin nibh nisl condimentum id. Nunc congue nisi vitae suscipit tellus mauris a diam. Interdum velit euismod in pellentesque massa placerat duis ultricies lacus. Enim tortor at auctor urna nunc id. Eros in cursus turpis massa tincidunt dui.`,
+		intro: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi tristique senectus et netus et malesuada fames. Quis hendrerit dolor magna eget est lorem. At augue eget arcu dictum varius duis. Quam pellentesque nec nam aliquam.`,
 
 		body: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi tristique senectus et netus et malesuada fames. Quis hendrerit dolor magna eget est lorem. At augue eget arcu dictum varius duis. Quam pellentesque nec nam aliquam. Proin nibh nisl condimentum id. Nunc congue nisi vitae suscipit tellus mauris a diam. Interdum velit euismod in pellentesque massa placerat duis ultricies lacus. Enim tortor at auctor urna nunc id. Eros in cursus turpis massa tincidunt dui. Volutpat sed cras ornare arcu dui vivamus arcu. Nibh mauris cursus mattis molestie a. Elit duis tristique sollicitudin nibh sit amet. Enim neque volutpat ac tincidunt. Semper risus in hendrerit gravida rutrum quisque non tellus orci. Enim nunc faucibus a pellentesque sit amet porttitor.
 
@@ -44,6 +49,6 @@ export const Data = [
         Ullamcorper sit amet risus nullam eget felis eget nunc lobortis. Metus vulputate eu scelerisque felis imperdiet proin. Cursus in hac habitasse platea dictumst quisque sagittis. Nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet. Eleifend quam adipiscing vitae proin. Amet consectetur adipiscing elit pellentesque. Neque sodales ut etiam sit amet nisl. Amet est placerat in egestas erat imperdiet sed. Venenatis cras sed felis eget velit aliquet sagittis id consectetur. Egestas diam in arcu cursus euismod quis. Pharetra sit amet aliquam id. Vel quam elementum pulvinar etiam non quam lacus suspendisse faucibus. Ipsum faucibus vitae aliquet nec ullamcorper sit amet.
         
         Sed euismod nisi porta lorem mollis aliquam ut porttitor leo. Eget gravida cum sociis natoque penatibus. Sagittis orci a scelerisque purus semper. Mollis aliquam ut porttitor leo a diam sollicitudin. Massa enim nec dui nunc mattis enim ut tellus elementum. Potenti nullam ac tortor vitae purus faucibus ornare. Urna porttitor rhoncus dolor purus. Amet dictum sit amet justo donec. Morbi blandit cursus risus at ultrices mi tempus. Pharetra vel turpis nunc eget lorem dolor sed.`,
-		img: "../../assets/projectImgs/3.jpg",
+		img: img3,
 	},
 ];

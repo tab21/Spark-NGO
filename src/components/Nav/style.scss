@@ -1,0 +1,12 @@
+#navbarContainer {
+	Button {
+		margin-left: 2rem;
+	}
+}
+@media screen and (max-width: 900px) {
+	#navbarContainer {
+		Button {
+			margin: 1rem 0;
+		}
+	}
+}

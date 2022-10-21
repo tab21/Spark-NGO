@@ -1,7 +1,32 @@
 .home {
 	width: 100%;
-	padding: 1rem 6rem;
+	padding: 1rem 7rem;
+	#carousel {
+	}
 	section {
 		margin: 0 0 2rem;
+		width: 100%;
+	}
+	.flex {
+		display: flex;
+		gap: 0.5rem;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		.card {
+			width: 49%;
+		}
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.home {
+		padding: 1rem;
+	}
+}
+@media screen and (max-width: 766px) {
+	.home {
+		#project .card {
+			width: 100%;
+		}
 	}
 }

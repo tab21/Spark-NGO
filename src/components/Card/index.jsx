@@ -1,18 +1,34 @@
 import Card from "react-bootstrap/Card";
+import Accordion from "react-bootstrap/Accordion";
 
-function ProjectCard() {
-	return (
-		<Card style={{ width: "18rem" }}>
-			<Card.Img variant="top" src="holder.js/100px180" />
-			<Card.Body>
-				<Card.Title>Card Title</Card.Title>
-				<Card.Text>
-					Some quick example text to build on the card title and make
-					up the bulk of the card's content.
-				</Card.Text>
-			</Card.Body>
-		</Card>
-	);
+function HomeCard(props) {
+	if (props.ishome) {
+		return (
+			<Card className="card">
+				<Card.Img variant="top" src={props.img} />
+				<Card.Body>
+					<Card.Title>{props.name}</Card.Title>
+					<Card.Text>{props.intro}</Card.Text>
+				</Card.Body>
+			</Card>
+		);
+	} else {
+		return (
+			<Accordion.Item eventKey={props.KEY} className="projectData">
+				<Accordion.Header className="projectHeader">
+					{props.name}
+				</Accordion.Header>
+				<Accordion.Body className="projectBody">
+					<img src={props.img} alt={props.name} />
+					<div>{props.body}</div>
+				</Accordion.Body>
+			</Accordion.Item>
+		);
+	}
 }
 
-export default ProjectCard;
+export default HomeCard;
+
+HomeCard.defaultProps = {
+	ishome: false,
+};

@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "react-bootstrap";
 import { FaTwitterSquare, FaLinkedin, FaFacebookSquare } from "react-icons/fa";
 
 // css
@@ -7,6 +8,13 @@ import "./style.scss";
 export default function Footer() {
 	return (
 		<div className="footer container-fluid text-lg-left">
+			<div className="head">
+				<div className="row">
+					<h4>Wanna Help ?</h4>
+					<Button variant="outline-light">Donate</Button>
+				</div>
+			</div>
+
 			<div className="row">
 				<div className="col-md-6 mt-md-0 mt-3">
 					<p>Want to know more about us?</p>
