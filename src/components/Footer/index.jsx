@@ -2,12 +2,12 @@ import React from "react";
 import { Button } from "react-bootstrap";
 import { FaTwitterSquare, FaLinkedin, FaFacebookSquare } from "react-icons/fa";
 
-// css
+// scss
 import "./style.scss";
 
 export default function Footer() {
 	return (
-		<div className="footer container-fluid text-lg-left">
+		<div id="footer" className="container-fluid text-lg-left">
 			<div className="head">
 				<div className="row">
 					<h4>Wanna Help ?</h4>
@@ -55,7 +55,13 @@ export default function Footer() {
 
 			<div className="bottom text-center py-3">
 				&copy; 2022 Copyright :{" "}
-				<a href="https://github.com/tab21">tab21</a>
+				<a
+					href="https://github.com/tab21"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					tab21
+				</a>
 			</div>
 		</div>
 	);

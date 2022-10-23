@@ -1,11 +1,13 @@
 import React from "react";
-
-//Data
-import { Data } from "../../assets/data/projectData";
-import HomeCard from "../Card";
 import Accordion from "react-bootstrap/Accordion";
 
-//css
+// My components
+import { ProjectCard } from "../Card";
+
+//Data
+import { projectData } from "../../assets/data/projectData";
+
+//scss
 import "./style.scss";
 
 export default function Project() {
@@ -13,8 +15,8 @@ export default function Project() {
 		<div id="projectDatas">
 			<h2>Project</h2>
 			<Accordion defaultActiveKey={0}>
-				{Data.map((data, key) => {
-					return <HomeCard key={key} {...data} KEY={key} />;
+				{projectData.map((data, key) => {
+					return <ProjectCard key={key} {...data} KEY={key} />;
 				})}
 			</Accordion>
 		</div>

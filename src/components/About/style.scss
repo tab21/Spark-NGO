@@ -1,6 +1,6 @@
-#home {
-	width: 100%;
-	padding: 1rem 7rem;
+#aboutUs {
+	margin: 2rem auto;
+	text-align: justify;
 	hr {
 		line-height: 1rem;
 		position: relative;
@@ -28,31 +28,21 @@
 			position: relative;
 			display: inline-block;
 			color: #4b8;
-			font-size: 2rem;
+
 			padding: 0 0.5rem;
 			line-height: 1.5rem;
 			color: #4b8;
 			background-color: white;
 		}
 	}
-	section {
-		margin: 0 0 2rem;
-		width: 100%;
-	}
 	.flex {
 		display: flex;
-		gap: 1rem;
-		flex-direction: row;
+		gap: 2rem;
 	}
 }
 
-@media screen and (max-width: 900px) {
-	#home {
-		padding: 1rem;
-	}
-}
-@media screen and (max-width: 766px) {
-	#home {
+@media screen and (max-width: 767px) {
+	#aboutUs {
 		.flex {
 			flex-direction: column;
 		}

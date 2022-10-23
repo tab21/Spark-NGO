@@ -1,0 +1,35 @@
+#events {
+	margin: 2rem auto;
+	text-align: justify;
+	h2 {
+		margin-bottom: 1rem;
+	}
+	.card-title,
+	.card-subtitle {
+		margin-bottom: 0.5rem;
+	}
+	.flex {
+		display: flex;
+		gap: 2rem;
+		flex-wrap: wrap;
+		justify-content: space-between;
+
+		.card {
+			width: 47%;
+		}
+		.badge {
+			width: 100%;
+			font-size: 1rem;
+		}
+	}
+}
+
+@media screen and (max-width: 767px) {
+	#events {
+		.flex {
+			.card {
+				width: 100%;
+			}
+		}
+	}
+}

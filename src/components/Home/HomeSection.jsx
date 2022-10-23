@@ -1,7 +1,7 @@
 import React from "react";
 
 //my components
-import HomeCard from "../Card";
+import { HomeCard } from "../Card";
 
 export default function HomeSection(Data) {
 	//number of projects in homepage
@@ -13,7 +13,7 @@ export default function HomeSection(Data) {
 	return (
 		<div className="flex">
 			{homeCardData.map((data, key) => {
-				return <HomeCard key={key} {...data} ishome={true} />;
+				return <HomeCard key={key} {...data} />;
 			})}
 		</div>
 	);

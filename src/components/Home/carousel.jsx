@@ -1,9 +1,9 @@
 import Carousel from "react-bootstrap/Carousel";
 
 // images
-import img1 from "../../assets/carouselHome/1.jpg";
-import img2 from "../../assets/carouselHome/2.jpg";
-import img3 from "../../assets/carouselHome/3.jpg";
+import img1 from "../../assets/carouselHomeImgs/1.jpg";
+import img2 from "../../assets/carouselHomeImgs/2.jpg";
+import img3 from "../../assets/carouselHomeImgs/3.jpg";
 
 function CarouselFadeExample() {
 	return (

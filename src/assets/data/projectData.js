@@ -5,7 +5,7 @@ import img1 from "../../assets/projectImgs/1.jpg";
 import img2 from "../../assets/projectImgs/2.jpg";
 import img3 from "../../assets/projectImgs/3.jpg";
 
-export const Data = [
+export const projectData = [
 	{
 		name: "Saksham",
 		intro: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi tristique senectus et netus et malesuada fames. Quis hendrerit dolor magna eget est lorem. At augue eget arcu dictum varius duis. Quam pellentesque nec nam aliquam. Proin nibh nisl condimentum id. Nunc congue nisi vitae suscipit tellus mauris a diam. `,

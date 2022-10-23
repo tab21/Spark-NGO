@@ -5,24 +5,25 @@ import CarouselHome from "./carousel";
 import HomeSection from "./HomeSection";
 
 //data
-import { Data } from "../../assets/data/projectData";
+import { projectData } from "../../assets/data/projectData";
+import { eventData } from "../../assets/data/eventData";
 
-// css
+// scss
 import "./style.scss";
 
 export default function Home() {
 	return (
-		<div className="home">
+		<div id="home">
 			<section id="carousel">
 				<CarouselHome className="carousel" />
 			</section>
 			<section id="project">
-				<h2>Our Projects</h2>
-				<HomeSection {...Data} />
+				<hr data-content="Our Projects" />
+				<HomeSection {...projectData} />
 			</section>
 			<section id="events">
-				<h2>Our Events and Workshops</h2>
-				<HomeSection {...Data} />
+				<hr data-content="Our Events and Workshops" />
+				<HomeSection {...eventData} />
 			</section>
 		</div>
 	);
