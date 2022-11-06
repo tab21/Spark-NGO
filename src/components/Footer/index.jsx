@@ -1,6 +1,6 @@
 import React from "react";
-import { Button } from "react-bootstrap";
 import { FaTwitterSquare, FaLinkedin, FaFacebookSquare } from "react-icons/fa";
+import { DonateButton } from "../Payment";
 
 // scss
 import "./style.scss";
@@ -11,7 +11,7 @@ export default function Footer() {
 			<div className="head">
 				<div className="row">
 					<h4>Wanna Help ?</h4>
-					<Button variant="outline-light">Donate</Button>
+					<DonateButton />
 				</div>
 			</div>
 

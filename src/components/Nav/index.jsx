@@ -1,6 +1,9 @@
 import React from "react";
-import { Container, Navbar, Nav, Button } from "react-bootstrap";
+import { Container, Navbar, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
+
+// My components
+import { DonateButton } from "../Payment";
 
 //scss
 import "./style.scss";
@@ -32,22 +35,10 @@ export default function NavigationBar() {
 						</Nav.Link>
 					</Nav>
 					<Nav.Item>
-						<Button variant="outline-light">Donate</Button>
+						<DonateButton />
 					</Nav.Item>
 				</Navbar.Collapse>
 			</Container>
 		</Navbar>
-
-		// <nav>
-		// 	<li>
-		//
-		// 	</li>
-		// 	<li>
-		//
-		// 	</li>
-		// 	<li>
-		// 		<Link to="/events">Workshops & Events</Link>
-		// 	</li>
-		// </nav>
 	);
 }
