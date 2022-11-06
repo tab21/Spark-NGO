@@ -40,4 +40,8 @@ function App() {
 	);
 }
 
+let s = document.createElement("script");
+s.type = "text/javascript";
+s.src = "https://checkout.razorpay.com/v1/checkout.js";
+document.querySelector("head").append(s);
 export default App;
