@@ -41,17 +41,6 @@ export function DonateButton() {
 
 const key = process.env.REACT_APP_key_id;
 const secret = process.env.REACT_APP_key_secret;
-
-document.addEventListener("submit", (e) => {
-	e.preventDefault();
-	let amount = e.target.amount.value;
-	let name = e.target.name.value;
-	let email = e.target.email.value;
-	let number = e.target.number.value;
-
-	payment(amount, name, email, number);
-});
-
 function payment(amount, name, email, number) {
 	let options = {
 		key: key,
@@ -85,3 +74,12 @@ function payment(amount, name, email, number) {
 	let pay = new window.Razorpay(options);
 	pay.open();
 }
+document.addEventListener("submit", (e) => {
+	e.preventDefault();
+	let amount = e.target.amount.value;
+	let name = e.target.name.value;
+	let email = e.target.email.value;
+	let number = e.target.number.value;
+
+	payment(amount, name, email, number);
+});
