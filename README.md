@@ -13,4 +13,4 @@
 
 - ReactJs
 - RazorPay API
-- SCSS
+- SCSS, React-Bootstrap
